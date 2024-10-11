@@ -1,0 +1,14 @@
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\bin\Debug\net8.0\ServiceDataLayer.deps.json
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\bin\Debug\net8.0\ServiceDataLayer.runtimeconfig.json
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\bin\Debug\net8.0\ServiceDataLayer.dll
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\bin\Debug\net8.0\ServiceDataLayer.pdb
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.csproj.AssemblyReference.cache
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.AssemblyInfoInputs.cache
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.AssemblyInfo.cs
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.dll
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\refint\ServiceDataLayer.dll
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.pdb
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ServiceDataLayer.genruntimeconfig.cache
+C:\Users\bakhaalle\Desktop\proj\ServiceDataLayer\obj\Debug\net8.0\ref\ServiceDataLayer.dll
