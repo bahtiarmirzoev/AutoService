@@ -1,21 +1,24 @@
 using Microsoft.EntityFrameworkCore;
 using ServiceDataLayer.Models;
+using ServiceDataLayer.Repositories.Interfaces;
+using ServiceDataLayer.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Подключение к базе данных (замените ConnectionString на вашу строку подключения)
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ServiceDBContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Регистрация контроллеров и других сервисов
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ICarRepository, CarRepository>();
+
 
 var app = builder.Build();
 
-// Настройка конвейера HTTP-запросов
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -25,7 +28,6 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 
-// Подключение маршрутов для контроллеров
 app.MapControllers();
 
 app.Run();

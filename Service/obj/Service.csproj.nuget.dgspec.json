@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bakhaalle\\Desktop\\proj\\Service\\Service.csproj": {}
+    "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj": {
+    "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj",
         "projectName": "ServiceDataLayer",
-        "projectPath": "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj",
+        "projectPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj",
         "packagesPath": "C:\\Users\\bakhaalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\obj\\",
+        "outputPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bakhaalle\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\bakhaalle\\Desktop\\proj\\Service\\Service.csproj": {
+    "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bakhaalle\\Desktop\\proj\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\bakhaalle\\Desktop\\proj\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\bakhaalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bakhaalle\\Desktop\\proj\\Service\\obj\\",
+        "outputPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bakhaalle\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj": {
-                "projectPath": "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj"
+              "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj": {
+                "projectPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj"
               }
             }
           }
