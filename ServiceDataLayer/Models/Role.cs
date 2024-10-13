@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace ServiceDataLayer.Models
 {
+    public enum RoleEnum
+    {
+        User ,
+        Admin, 
+        SuperAdmin
+    }
     public class Role
     {
-        public int Id { get; set; } 
-        public string Name { get; set; }
+        public Guid Id { get; set; } 
+        public RoleEnum Name { get; set; }
         public ICollection<User> Users { get; set; }
     }
 }

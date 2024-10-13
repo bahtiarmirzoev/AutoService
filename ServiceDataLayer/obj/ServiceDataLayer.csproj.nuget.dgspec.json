@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj": {}
+    "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj": {
+    "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj",
         "projectName": "ServiceDataLayer",
-        "projectPath": "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\ServiceDataLayer.csproj",
+        "projectPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\ServiceDataLayer.csproj",
         "packagesPath": "C:\\Users\\bakhaalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bakhaalle\\Desktop\\proj\\ServiceDataLayer\\obj\\",
+        "outputPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork\\ServiceDataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bakhaalle\\AppData\\Roaming\\NuGet\\NuGet.Config",

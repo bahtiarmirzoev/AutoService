@@ -6,10 +6,21 @@ using System.Threading.Tasks;
 
 namespace ServiceDataLayer.Models
 {
+
+    public enum CarStatusEnum
+    {
+        Available,
+        InService,
+        Repaired,
+        OutOfService,
+        Pending,
+        Completed
+    }
     public class CarStatus
     {
         public Guid Id { get; set; }
-        public string StatusName { get; set; } = string.Empty;
+        public CarStatusEnum StatusName { get; set; } 
         public ICollection<Car> Cars { get; set; }
     }
+    
 }

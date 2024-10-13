@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ServiceDataLayer.Models;
 
@@ -11,9 +12,11 @@ using ServiceDataLayer.Models;
 namespace ServiceDataLayer.Migrations
 {
     [DbContext(typeof(ServiceDBContext))]
-    partial class ServiceDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241013095153_AddedControllers")]
+    partial class AddedControllers
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

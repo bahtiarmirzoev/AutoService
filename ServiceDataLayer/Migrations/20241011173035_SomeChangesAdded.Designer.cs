@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ServiceDataLayer.Models;
 
@@ -11,9 +12,11 @@ using ServiceDataLayer.Models;
 namespace ServiceDataLayer.Migrations
 {
     [DbContext(typeof(ServiceDBContext))]
-    partial class ServiceDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241011173035_SomeChangesAdded")]
+    partial class SomeChangesAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,6 +48,9 @@ namespace ServiceDataLayer.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<Guid>("RoleId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid>("StatusId")
                         .HasColumnType("uniqueidentifier");
 
@@ -54,6 +60,8 @@ namespace ServiceDataLayer.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CarId");
+
+                    b.HasIndex("RoleId");
 
                     b.HasIndex("StatusId");
 
@@ -78,22 +86,22 @@ namespace ServiceDataLayer.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("fc8b6cec-db3c-4ee2-94fc-9ed17ea441c4"),
+                            Id = new Guid("54063478-b0f8-40c2-8a94-8964b26f0292"),
                             StatusName = 1
                         },
                         new
                         {
-                            Id = new Guid("9f3a5565-6309-43dd-9da1-71c11114ce00"),
+                            Id = new Guid("b7c0609f-c5f6-422b-a493-d61456d57cab"),
                             StatusName = 2
                         },
                         new
                         {
-                            Id = new Guid("ef788967-e426-46ef-b5e8-f3aea49f50a4"),
+                            Id = new Guid("99d7790c-34ee-472b-beea-4a364b77fa7b"),
                             StatusName = 0
                         },
                         new
                         {
-                            Id = new Guid("94f0559f-d923-4873-809f-59b373dd4ddc"),
+                            Id = new Guid("ce6f0c96-e0ca-4be8-9e40-9a37faaba044"),
                             StatusName = 3
                         });
                 });
@@ -114,17 +122,17 @@ namespace ServiceDataLayer.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("ec9b6652-1ff5-4d1b-81c2-6ca3a61ea39d"),
+                            Id = new Guid("c66d7158-1ef8-41ac-b552-e44992208c87"),
                             Name = 0
                         },
                         new
                         {
-                            Id = new Guid("4cb29782-9531-4a4b-97e0-77737f043c01"),
+                            Id = new Guid("575f0f68-d1ed-458f-ba0c-36aa9a3b4e15"),
                             Name = 1
                         },
                         new
                         {
-                            Id = new Guid("4560f276-e2bd-4783-b7c4-bdbb86800dce"),
+                            Id = new Guid("dd89b50e-8d1c-43f7-90c6-c50d397714f5"),
                             Name = 2
                         });
                 });
@@ -148,49 +156,49 @@ namespace ServiceDataLayer.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3a2044ac-bd57-4101-87bb-3b0433839662"),
+                            Id = new Guid("0a4bc55c-fd9c-4989-a4a2-f9b0d615c6d9"),
                             Name = 3,
                             ServicePrice = 0m
                         },
                         new
                         {
-                            Id = new Guid("34dc2cb3-037d-4231-b962-dcfad91e9169"),
+                            Id = new Guid("49022463-7571-44d1-a527-09c719fc8447"),
                             Name = 5,
                             ServicePrice = 0m
                         },
                         new
                         {
-                            Id = new Guid("6d3e850b-e320-46f5-b166-99c01f5e0584"),
+                            Id = new Guid("e603d3cb-c539-4eec-976b-cc733c874993"),
                             Name = 3,
                             ServicePrice = 0m
                         },
                         new
                         {
-                            Id = new Guid("9b7b2104-f8c5-4dd7-9b1e-5614ecc0fb43"),
+                            Id = new Guid("2324d67e-0855-45f0-b46e-30982b47e40d"),
                             Name = 2,
                             ServicePrice = 0m
                         },
                         new
                         {
-                            Id = new Guid("387bf946-d1ce-4fde-892c-c9497df904bb"),
+                            Id = new Guid("04a9da98-89a7-4dfc-996a-6b80e9698f9d"),
                             Name = 7,
                             ServicePrice = 0m
                         },
                         new
                         {
-                            Id = new Guid("8b398794-9d2b-492f-ac1b-bb28b3374c82"),
+                            Id = new Guid("df59427d-e3d1-44fa-9890-1ae653483994"),
                             Name = 1,
                             ServicePrice = 0m
                         },
                         new
                         {
-                            Id = new Guid("3b0a4c42-e6c9-47bf-90be-d05e8df17a39"),
+                            Id = new Guid("7e7f2190-6223-4f28-b560-cca3254535fd"),
                             Name = 4,
                             ServicePrice = 0m
                         },
                         new
                         {
-                            Id = new Guid("b7795d96-8bf0-473e-abaa-ab58280ecac1"),
+                            Id = new Guid("a83470d3-82b0-42f9-afed-aca2dfc9045a"),
                             Name = 0,
                             ServicePrice = 0m
                         });
@@ -244,6 +252,12 @@ namespace ServiceDataLayer.Migrations
                         .WithMany("Cars")
                         .HasForeignKey("CarId");
 
+                    b.HasOne("ServiceDataLayer.Models.Role", "Role")
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("ServiceDataLayer.Models.CarStatus", "Status")
                         .WithMany("Cars")
                         .HasForeignKey("StatusId")
@@ -255,6 +269,8 @@ namespace ServiceDataLayer.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Role");
 
                     b.Navigation("Status");
 

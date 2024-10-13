@@ -50,26 +50,27 @@ namespace ServiceDataLayer.Models
                 .HasMaxLength(150);
 
             modelBuilder.Entity<CarStatus>().HasData(
-              new CarStatus { Id = Guid.NewGuid(), StatusName = "Pending" },
-              new CarStatus { Id = Guid.NewGuid(), StatusName = "InProgress" },
-              new CarStatus { Id = Guid.NewGuid(), StatusName = "Completed" }
+              new CarStatus { Id = Guid.NewGuid(), StatusName = CarStatusEnum.InService},
+              new CarStatus { Id = Guid.NewGuid(), StatusName = CarStatusEnum.Repaired },
+              new CarStatus { Id = Guid.NewGuid(), StatusName = CarStatusEnum.Available },
+              new CarStatus { Id = Guid.NewGuid(), StatusName = CarStatusEnum.OutOfService}
      );
 
             modelBuilder.Entity<Role>().HasData(
-                new Role { Id = 1, Name = "User" },
-                new Role { Id = 2 ,Name = "Admin" },
-                new Role { Id = 3 , Name = "SuperAdmin" }
+                new Role { Id = Guid.NewGuid(), Name = RoleEnum.User },
+                new Role { Id = Guid.NewGuid(), Name = RoleEnum.Admin },
+                new Role { Id = Guid.NewGuid() , Name = RoleEnum.SuperAdmin }
             );
 
             modelBuilder.Entity<ServiceType>().HasData(
-                new ServiceType { Id = 1, ServiceName = "Oil Change" },
-                new ServiceType { Id = 2, ServiceName = "Tire Rotation" },
-                new ServiceType { Id = 3, ServiceName = "Brake Inspection" },
-                new ServiceType { Id = 4, ServiceName = "Engine Diagnostic" },
-                new ServiceType { Id = 5, ServiceName = "Battery Replacement" },
-                new ServiceType { Id = 6, ServiceName = "Transmission Repair" },
-                new ServiceType { Id = 7, ServiceName = "Wheel Alignment" },
-                new ServiceType { Id = 8, ServiceName = "Air Conditioning Service" }
+                new ServiceType { Id = Guid.NewGuid() ,Name = ServiceTypeEnum.EngineDiagnostic },
+                new ServiceType { Id = Guid.NewGuid(), Name = ServiceTypeEnum.TransmissionRepair},
+                new ServiceType { Id = Guid.NewGuid(), Name = ServiceTypeEnum.EngineDiagnostic },
+                new ServiceType { Id = Guid.NewGuid(), Name = ServiceTypeEnum.BrakeInspection },
+                new ServiceType { Id = Guid.NewGuid(), Name = ServiceTypeEnum.AirConditioningService },
+                new ServiceType { Id = Guid.NewGuid(), Name = ServiceTypeEnum.TireRotation },
+                new ServiceType { Id = Guid.NewGuid(), Name = ServiceTypeEnum.BatteryReplacement },
+                new ServiceType { Id = Guid.NewGuid(), Name = ServiceTypeEnum.OilChange }
             );
 
         }
