@@ -34,6 +34,8 @@ namespace ServiceAPI.Controllers
                 Surname = user.Surname,
                 Email = user.Email,
                 Phone = user.Phone
+                
+
             }).ToList();
 
             return Ok(userDTOs);

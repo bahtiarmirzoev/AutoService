@@ -3,14 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F07786C-5CEA-4C00-9F86-A5A2D1B0EFEC}|Service.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\service\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F07786C-5CEA-4C00-9F86-A5A2D1B0EFEC}|Service.csproj|solutionrelative:controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1056DE-3B5D-4AAA-B626-C0129C1948B5}|..\\ServiceDataLayer\\ServiceDataLayer.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\servicedatalayer\\models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1056DE-3B5D-4AAA-B626-C0129C1948B5}|..\\ServiceDataLayer\\ServiceDataLayer.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\servicedatalayer\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC1056DE-3B5D-4AAA-B626-C0129C1948B5}|..\\ServiceDataLayer\\ServiceDataLayer.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\servicedatalayer\\repositories\\classes\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F07786C-5CEA-4C00-9F86-A5A2D1B0EFEC}|Service.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\service\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -20,7 +13,17 @@
       "AbsoluteMoniker": "D:0:0:{FC1056DE-3B5D-4AAA-B626-C0129C1948B5}|..\\ServiceDataLayer\\ServiceDataLayer.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\servicedatalayer\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FC1056DE-3B5D-4AAA-B626-C0129C1948B5}|..\\ServiceDataLayer\\ServiceDataLayer.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\servicedatalayer\\models\\dtos\\cardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1056DE-3B5D-4AAA-B626-C0129C1948B5}|..\\ServiceDataLayer\\ServiceDataLayer.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\servicedatalayer\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC1056DE-3B5D-4AAA-B626-C0129C1948B5}|..\\ServiceDataLayer\\ServiceDataLayer.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\servicedatalayer\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F07786C-5CEA-4C00-9F86-A5A2D1B0EFEC}|Service.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\service\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F07786C-5CEA-4C00-9F86-A5A2D1B0EFEC}|Service.csproj|solutionrelative:controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F07786C-5CEA-4C00-9F86-A5A2D1B0EFEC}|Service.csproj|c:\\users\\bakhaalle\\desktop\\coursework-master\\service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,62 +46,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Repositories\\Classes\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\ServiceDataLayer\\Repositories\\Classes\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Repositories\\Classes\\UserRepository.cs",
+              "RelativeToolTip": "..\\ServiceDataLayer\\Repositories\\Classes\\UserRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T20:02:34.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CarDTO.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\DTOs\\CarDTO.cs",
               "RelativeDocumentMoniker": "..\\ServiceDataLayer\\Models\\DTOs\\CarDTO.cs",
               "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\DTOs\\CarDTO.cs",
               "RelativeToolTip": "..\\ServiceDataLayer\\Models\\DTOs\\CarDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T17:21:12.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "..\\ServiceDataLayer\\Models\\DTOs\\UserDTO.cs",
               "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\DTOs\\UserDTO.cs",
               "RelativeToolTip": "..\\ServiceDataLayer\\Models\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:52:39.112Z"
+              "WhenOpened": "2024-10-16T16:52:39.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\Service\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\Service\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwIMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T16:49:11.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CarsController.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\Service\\Controllers\\CarsController.cs",
               "RelativeDocumentMoniker": "Controllers\\CarsController.cs",
-              "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\Service\\Controllers\\CarsController.cs*",
-              "RelativeToolTip": "Controllers\\CarsController.cs*",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAcwIQAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\Service\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Controllers\\CarsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T16:49:11.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserCars.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\UserCars.cs",
               "RelativeDocumentMoniker": "..\\ServiceDataLayer\\Models\\UserCars.cs",
@@ -116,13 +133,14 @@
               "RelativeDocumentMoniker": "..\\ServiceDataLayer\\Models\\User.cs",
               "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\User.cs",
               "RelativeToolTip": "..\\ServiceDataLayer\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T16:07:11.567Z"
+              "WhenOpened": "2024-10-16T16:07:11.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CarRepository.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Repositories\\Classes\\CarRepository.cs",
               "RelativeDocumentMoniker": "..\\ServiceDataLayer\\Repositories\\Classes\\CarRepository.cs",
@@ -134,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\Service\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -146,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ServiceDBContext.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\ServiceDBContext.cs",
               "RelativeDocumentMoniker": "..\\ServiceDataLayer\\ServiceDBContext.cs",
@@ -158,13 +176,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Car.cs",
               "DocumentMoniker": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\Car.cs",
               "RelativeDocumentMoniker": "..\\ServiceDataLayer\\Models\\Car.cs",
-              "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\Car.cs",
-              "RelativeToolTip": "..\\ServiceDataLayer\\Models\\Car.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\bakhaalle\\Desktop\\CourseWork-master\\ServiceDataLayer\\Models\\Car.cs*",
+              "RelativeToolTip": "..\\ServiceDataLayer\\Models\\Car.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T16:07:07.639Z",
               "EditorCaption": ""
