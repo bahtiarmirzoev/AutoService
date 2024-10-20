@@ -31,7 +31,7 @@ namespace Service.Controllers
                         Id = c.Id,
                         LicensePlate = c.LicensePlate,
                         Model = c.Model,
-                        Brand = c.Make 
+                        Brand = c.Brand,
                     })
                     .ToListAsync();
 
@@ -56,7 +56,7 @@ namespace Service.Controllers
                         Id = c.Id,
                         LicensePlate = c.LicensePlate,
                         Model = c.Model,
-                        Brand = c.Make // Assuming "Make" is the Brand in your model
+                        Brand = c.Brand // Assuming "Make" is the Brand in your model
                     })
                     .FirstOrDefaultAsync();
 
@@ -88,7 +88,7 @@ namespace Service.Controllers
                     Id = car.Id,
                     LicensePlate = car.LicensePlate,
                     Model = car.Model,
-                    Brand = car.Make
+                    Brand = car.Brand
                 };
 
                 return CreatedAtAction(nameof(GetCar), new { id = car.Id }, carDTO);

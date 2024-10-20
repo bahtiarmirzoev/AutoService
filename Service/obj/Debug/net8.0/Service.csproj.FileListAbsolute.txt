@@ -297,7 +297,6 @@ C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.Ge
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
-C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\appsettings.json
@@ -318,6 +317,7 @@ C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
@@ -436,4 +436,3 @@ C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\refint\Ser
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.pdb
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\Service.genruntimeconfig.cache
 C:\Users\bakhaalle\Desktop\CourseWork-master\Service\obj\Debug\net8.0\ref\Service.dll
-C:\Users\bakhaalle\Desktop\CourseWork-master\Service\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

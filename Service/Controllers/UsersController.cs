@@ -2,10 +2,7 @@
 using ServiceDataLayer.Models;
 using ServiceDataLayer.Models.DTOs;
 using ServiceDataLayer.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace ServiceAPI.Controllers
 {
@@ -27,14 +24,19 @@ namespace ServiceAPI.Controllers
             var users = await _userRepository.GetAllUsersAsync();
             var userDTOs = users.Select(user => new UserDTO
             {
-                Id = user.Id,
                 Username = user.Username,
                 Password = user.Password,
+                ConfirmPassword = user.ConfirmPassword,
                 Name = user.Name,
                 Surname = user.Surname,
                 Email = user.Email,
-                Phone = user.Phone
-                
+                Phone = user.Phone,
+
+
+
+
+
+
 
             }).ToList();
 
@@ -53,13 +55,13 @@ namespace ServiceAPI.Controllers
 
             var userDTO = new UserDTO
             {
-                Id = user.Id,
                 Username = user.Username,
                 Password = user.Password,
                 Name = user.Name,
                 Surname = user.Surname,
                 Email = user.Email,
                 Phone = user.Phone
+
             };
 
             return Ok(userDTO);
@@ -88,13 +90,14 @@ namespace ServiceAPI.Controllers
             var createdUser = await _userRepository.AddUserAsync(user);
             var createdUserDTO = new UserDTO
             {
-                Id = createdUser.Id,
                 Username = createdUser.Username,
                 Password = userDTO.Password,
                 Name = createdUser.Name,
                 Surname = createdUser.Surname,
                 Email = createdUser.Email,
-                Phone = createdUser.Phone
+                Phone = createdUser.Phone,
+
+
             };
 
             return CreatedAtAction(nameof(GetUserById), new { id = createdUserDTO.Id }, createdUserDTO);
@@ -104,14 +107,10 @@ namespace ServiceAPI.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(Guid id, UserDTO userDTO)
         {
-            if (id != userDTO.Id)
-            {
-                return BadRequest();
-            }
-
+            
+          
             var user = new User
             {
-                Id = userDTO.Id,
                 Username = userDTO.Username,
                 Password = userDTO.Password,
                 Name = userDTO.Name,
@@ -128,13 +127,12 @@ namespace ServiceAPI.Controllers
 
             var updatedUserDTO = new UserDTO
             {
-                Id = updatedUser.Id,
                 Username = updatedUser.Username,
                 Password = updatedUser.Password,
                 Name = updatedUser.Name,
                 Surname = updatedUser.Surname,
                 Email = updatedUser.Email,
-                Phone = updatedUser.Phone
+                Phone = updatedUser.Phone,
             };
 
             return Ok(updatedUserDTO);
